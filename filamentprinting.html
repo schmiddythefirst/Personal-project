@@ -28,9 +28,35 @@
     </header>
     <main id="filamentmain">
         <h1>Filament Prints</h1>
-        <img src="images/filamentprinting1opt.jpg" alt="filament printer at work">
-        <img src="images/filamentprinting2opt.jpg" alt="filament printer at work">
-        <p>Bring your ideas to life with our reliable and affordable filament 3D printing services! From durable prototypes to custom creations, our advanced FDM printers ensure precision and quality with every print. Offering a range of materials and vibrant colors, we provide cost-effective solutions without compromising on performance. Experience unbeatable value and craftsmanship—turn your designs into reality today!</p>
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div> <!-- Counter here -->
+                <img src="images/filamentprinting1opt.jpg" alt="Filament printer at work">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/filamentprinting2opt.jpg" alt="Filament printer at work">
+            </div>
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Caption container -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <!-- Thumbnails -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/filamentprinting1opt.jpg" onclick="currentSlide(1)" alt="Filament printer at work">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/filamentprinting2opt.jpg" onclick="currentSlide(2)" alt="Filament printer at work">
+                </div>
+            </div>
+        </div>
+        <!--<img src="images/filamentprinting1opt.jpg" alt="filament printer at work">
+        <img src="images/filamentprinting2opt.jpg" alt="filament printer at work"> -->
+        <p class="subpageblurb">Bring your ideas to life with our reliable and affordable filament 3D printing services! From durable prototypes to custom creations, our advanced FDM printers ensure precision and quality with every print. Offering a range of materials and vibrant colors, we provide cost-effective solutions without compromising on performance. Experience unbeatable value and craftsmanship—turn your designs into reality today!</p>
         <div class="submitform">
         <form action="submit_request.php" method="post">
             <label for="request">Your Request:</label>
