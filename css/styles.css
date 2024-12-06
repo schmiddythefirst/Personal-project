@@ -211,6 +211,22 @@ footer {
 }
 
 
+.subpageblurb {
+    text-align: center;
+    font-family: 'Cardo', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333; /* Dark text for readability */
+    background-color: #F5F5DC; /* Light background to stand out */
+    padding: 20px;
+    margin: 30px auto; /* Center and add spacing */
+    max-width: 900px; /* Limit width for better readability */
+    border: 3px solid #333; /* Subtle border for emphasis */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
 * {
     box-sizing: border-box;
   }
@@ -338,3 +354,55 @@ footer {
     opacity: 1; 
 }
   
+
+.submitform {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px; 
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.submitform label {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.submitform textarea {
+    width: 100%;
+    max-width: 500px; 
+    height: 150px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Cardo', sans-serif;
+    font-size: 1rem;
+    resize: none; 
+}
+
+.submitform button {
+    margin-top: 15px;
+    background-color: #d4af37; 
+    color: #000000;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitform button:hover {
+    background-color: #046307; 
+    color:#F5F5DC;
+    transform: scale(1.05);
+}
