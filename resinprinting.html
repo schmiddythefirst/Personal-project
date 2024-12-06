@@ -28,33 +28,32 @@
     </header>
     <main id="resinmain">
         <h1>Resin Prints</h1>
-            <div class="container"></div>
-                <div class="mySlides">
-                    <div class="numbertext">1 / 2</div>
-                        <img src="images/resinprinting1opt.jpg" style="width:25%" alt="Statue being 3D printed">
-                    </div>
-                <div class="mySlides">
-                    <div class="numbertext">2 / 2</div>
-                        <img src="images/resinprinting2opt.jpg" style="width:25%" alt="3D printed monster miniature">
-                    </div>
-            <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <!-- Image text -->
-                    <div class="caption-container">
-                        <p id="caption"></p>
-                    </div>
-                <!-- Thumbnail images -->
-                    <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="images/resinprinting1opt.jpg" style="width:50%" onclick="currentSlide(1)" alt="Statue being 3D printed">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="images/resinprinting2opt.jpg" style="width:50%" onclick="currentSlide(2)" alt="3D printed monster miniature">
-                    </div>
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/resinprinting1opt.jpg" alt="Statue being 3D printed">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/resinprinting2opt.jpg" alt="3D printed monster miniature">
+            </div>
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Caption container -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <!-- Thumbnails -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/resinprinting1opt.jpg" onclick="currentSlide(1)" alt="Statue being 3D printed">
                 </div>
-       <!-- <img src="images/resinprinting1opt.jpg" alt="Statue being 3D printed">
-        <img src="images/resinprinting2opt.jpg" alt="3D printed monster miniature">-->
+                <div class="column">
+                    <img class="demo cursor" src="images/resinprinting2opt.jpg" onclick="currentSlide(2)" alt="3D printed monster miniature">
+                </div>
+            </div>
+        </div>
         <p>Discover precision and affordability with our cutting-edge resin 3D printing services! Whether you're crafting intricate prototypes, detailed miniatures, or high-quality custom designs, our resin printers deliver unparalleled accuracy and smooth finishes. With competitive pricing and expert craftsmanship, we make high-resolution 3D printing accessible for all your creative and professional needs. Experience the perfect blend of quality and value—bring your vision to life today!</p>
         <div class="submitform">
         <form action="submit_request.php" method="post">

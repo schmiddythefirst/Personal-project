@@ -200,15 +200,41 @@ footer {
 
 
 
-/*Resin Printing Gallery CSS */
+/*Resin Printing & Filament Printing CSS */
+
+#resinmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 
 * {
     box-sizing: border-box;
   }
   
+
   .container {
-    position: relative;
-  }
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 20px; 
+}
+
+.container img {
+    width: 100%; 
+    max-width: 400px; /
+    height: auto; 
+    margin: 10px 0; 
+    border: 3px solid #333; 
+    border-radius: 10px; 
+}
+
   
   .mySlides {
     display: none;
@@ -220,29 +246,31 @@ footer {
   
   .prev,
   .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
+      cursor: pointer;
+      position: absolute;
+      top: 50%; 
+      transform: translateY(-50%); 
+      color: #fff; 
+      font-size: 24px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5); 
+      padding: 10px;
+      border-radius: 50%; 
   }
+
+  .prev {
+    left: 10px; 
+}
+
+
+.next {
+    right: 10px; 
+}
   
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+.prev:hover,
+.next:hover {
+    background-color: #000; 
+}
 
   .numbertext {
     color: #f2f2f2;
@@ -255,10 +283,20 @@ footer {
   .caption-container {
     text-align: center;
     background-color: #222;
-    padding: 2px 16px;
     color: white;
-  }
-  
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+ 
+.row {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 15px; 
+}
+
   .row:after {
     content: "";
     display: table;
@@ -266,15 +304,33 @@ footer {
   }
   
   .column {
-    float: left;
-    width: 16.66%;
-  }
+    flex: 0 1 auto; 
+    max-width: 120px; 
+}
+
+.column img {
+    width: 100%; 
+    border: 2px solid #333; 
+    border-radius: 5px;
+    cursor: pointer;
+}
   
   .demo {
     opacity: 0.6;
   }
+
+  .demo:hover {
+    border-color: #046307;
+    transform: scale(1.1); 
+}
   
   .active,
   .demo:hover {
     opacity: 1;
   } 
+
+  .active {
+    border-color: #d4af37; 
+    opacity: 1; 
+}
+  
