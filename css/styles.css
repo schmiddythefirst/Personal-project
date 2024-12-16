@@ -414,3 +414,50 @@ footer {
     color:#F5F5DC;
     transform: scale(1.05);
 }
+
+/*aboutus.html css*/
+#aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.aboutcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #F5F5DC;
+    padding: 20px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutimage img {
+    max-width: 300px;
+    height: auto;
+    border: 3px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.aboutcontent h1 {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.aboutcontent p {
+    font-family: 'Cardo', sans-serif;
+    font-size: 1.25rem;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+}
