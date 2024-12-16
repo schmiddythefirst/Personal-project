@@ -224,14 +224,14 @@ footer {
     font-family: 'Cardo', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
-    color: #333; /* Dark text for readability */
-    background-color: #F5F5DC; /* Light background to stand out */
+    color: #333; 
+    background-color: #F5F5DC; 
     padding: 20px;
-    margin: 30px auto; /* Center and add spacing */
-    max-width: 900px; /* Limit width for better readability */
-    border: 3px solid #333; /* Subtle border for emphasis */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 30px auto; 
+    max-width: 900px; 
+    border: 3px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
